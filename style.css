@@ -1,0 +1,119 @@
+/* CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/images/website\ bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Baloo Bhai 2", cursive;
+    width: 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: auto;
+  }
+  .header img {
+    width: 100%;
+  }
+  .left {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .left img {
+    width: 66px;
+  }
+  .image {
+    font-size: 14px;
+    margin: -7px;
+  }
+  
+  .centre {
+    color: white;
+    display: block;
+    width: 47%;
+    margin: 8px 320px;
+  }
+  
+  .right {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 22px;
+  }
+  .navbar {
+    display: inline-block;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    font-size: 25px;
+  }
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+  }
+  .navbar li a:hover,
+  .navbar li a:active {
+    color: orange;
+    text-decoration: underline;
+  }
+  .signin {
+    color: white;
+    background-color: black;
+    padding: 3px 24px;
+    margin: 0px 9px;
+    border-radius: 56px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: baloo bhai 2, cursive;
+  }
+  .signin:hover {
+    background-color: rgb(197, 4, 4);
+  }
+  .container {
+    border: 2px solid white;
+    margin: 88px 120px;
+    padding: 10px;
+    border-radius: 13px;
+    width: 30%;
+    float: right;
+  }
+  .userdetail input {
+    text-align: center;
+    margin: 8px auto;
+    display: block;
+    width: 69%;
+    border-radius: 17px;
+    padding: 6px 7px;
+    font-family: "Baloo Bhai 2", cursive;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .container h1 {
+    text-align: center;
+  }
+  .container button {
+    display: block;
+    width: 41%;
+    margin: 18px auto;
+    padding: 5px 29px;
+  }
+  .userdetail ::placeholder {
+    color: black;
+    font-size: 15px;
+  }
+  .userdetail input:hover {
+    box-shadow: 0 0 30px rgba(215, 208, 208, 0.8);
+  }
+  
